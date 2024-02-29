@@ -2,7 +2,7 @@ repo_name: AlexcastroDev/rswag
 report_id: a1252843784423446d2de96facda3e17
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T08:11:42+00:00'
+timestamp: '2024-02-29T19:22:53+00:00'
 requested_by: AlexcastroDev
 provider: github
 branch: master
@@ -191,13 +191,6 @@ tools:
   last_updated_by: Xavi
   last_updated_on: 2023-10-05 11:40:15.000000000 Z
   vulnerabilities:
-  - name: Action Pack contains Information Disclosure / Unintended Method Execution
-      vulnerability
-    cve_id: CVE-2021-22885
-    cve_url: https://github.com/advisories/GHSA-hjg4-8q5f-x6fm
-    detected_date: Aug 22
-    severity: high
-    first_patched: 5.2.4.6
   - name: actionpack Improper Input Validation vulnerability
     cve_id: CVE-2013-0156
     cve_url: https://github.com/advisories/GHSA-jmgw-6vjg-jjwg
@@ -224,6 +217,13 @@ tools:
     detected_date: Aug 22
     severity: high
     first_patched: 3.2.22.1
+  - name: Action Pack contains Information Disclosure / Unintended Method Execution
+      vulnerability
+    cve_id: CVE-2021-22885
+    cve_url: https://github.com/advisories/GHSA-hjg4-8q5f-x6fm
+    detected_date: Aug 22
+    severity: high
+    first_patched: 5.2.4.6
   - name: Moderate severity vulnerability that affects actionpack
     cve_id: 
     cve_url: https://github.com/advisories/GHSA-23v3-qfrj-wmgh
@@ -388,12 +388,6 @@ tools:
     detected_date: Oct 29
     severity: low
     first_patched: 
-  - name: actionpack is vulnerable to remote bypass authentication
-    cve_id: CVE-2015-7576
-    cve_url: https://github.com/advisories/GHSA-p692-7mm3-3fxg
-    detected_date: Aug 22
-    severity: low
-    first_patched: 3.2.22.1
   - name: ReDoS based DoS vulnerability in Action Dispatch
     cve_id: CVE-2023-22795
     cve_url: https://github.com/advisories/GHSA-8xww-x3g3-6jcv
@@ -406,6 +400,12 @@ tools:
     detected_date: Jan 19
     severity: low
     first_patched: 5.2.8.15
+  - name: actionpack is vulnerable to remote bypass authentication
+    cve_id: CVE-2015-7576
+    cve_url: https://github.com/advisories/GHSA-p692-7mm3-3fxg
+    detected_date: Aug 22
+    severity: low
+    first_patched: 3.2.22.1
 - name: activesupport
   description: A toolkit of support libraries and Ruby core extensions extracted from
     the Rails framework
@@ -446,18 +446,18 @@ tools:
     detected_date: Aug 22
     severity: moderate
     first_patched: 4.1.11
-  - name: activesupport Cross-site Scripting vulnerability
-    cve_id: CVE-2015-3226
-    cve_url: https://github.com/advisories/GHSA-vxvp-4xwc-jpp6
-    detected_date: Aug 22
-    severity: moderate
-    first_patched: 3.2.22.5
   - name: activesupport Improper Input Validation vulnerability
     cve_id: CVE-2013-1856
     cve_url: https://github.com/advisories/GHSA-9c2j-593q-3g82
     detected_date: Aug 22
     severity: moderate
     first_patched: 3.1.12
+  - name: activesupport Cross-site Scripting vulnerability
+    cve_id: CVE-2015-3226
+    cve_url: https://github.com/advisories/GHSA-vxvp-4xwc-jpp6
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 3.2.22.5
   - name: ReDoS based DoS vulnerability in Active Support's underscore
     cve_id: CVE-2023-22796
     cve_url: https://github.com/advisories/GHSA-j6gc-792m-qgm2
